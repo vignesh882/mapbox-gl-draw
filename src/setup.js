@@ -8,7 +8,7 @@ export default function(ctx) {
 
   let controlContainer = null;
   let mapLoadedInterval = null;
-
+  let addNodeId = null;
   const setup = {
     onRemove() {
       // Stop connect attempt in the event that control is removed before map is loaded
